@@ -18,6 +18,12 @@
    pip install beautifulsoup4
    ```
 
+   **Import Beautiful Soup:**
+   Make sure to import Beautiful Soup in your Python script:
+   ```python
+   from bs4 import BeautifulSoup
+
+
 ## Usage
 
 1. Open `1.py`
