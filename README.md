@@ -23,6 +23,18 @@
    ```python
    from bs4 import BeautifulSoup
 
+## Installation of Required Libraries
+
+To run the scripts in this project, you'll need to install the following Python libraries: `requests`, `beautifulsoup4`, `pandas`, and `tabulate`.
+
+You can install these dependencies using `pip`. Run the following commands:
+
+```bash
+python -m pip install requests
+python -m pip install beautifulsoup4
+python -m pip install pandas
+python -m pip install tabulate
+```
 
 ## Usage
 
