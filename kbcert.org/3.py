@@ -3,7 +3,7 @@ import pandas as pd
 from tabulate import tabulate
 
 
-filename = 'x.html' 
+filename = r'kbcert.org\x.html'
 with open(filename, 'r') as file:
     html_content = file.read()
 
@@ -40,7 +40,7 @@ df = pd.DataFrame(rows, columns=headers)
 html_output = df.to_html(index=False, border=1, escape=False, classes='table table-striped')
 
 # Save HTML output to a file
-with open('output.html', 'w') as file:
+with open('kbcert.org/output.html', 'w') as file:
     file.write(html_output)
 
 # Convert DataFrame to string format using tabulate for proper alignment
