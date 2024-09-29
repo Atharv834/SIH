@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
 
 # Load the HTML content from the file
-with open('x.html', 'r', encoding='utf-8') as file:
+with open('cert.in/x.html', 'r', encoding='utf-8', errors='ignore') as file:
     html = file.read()
+
 
 # Parse the HTML
 soup = BeautifulSoup(html, 'html.parser')
@@ -102,7 +103,7 @@ html_table += """
 """
 
 # Save the HTML table to a file
-with open('vulnerabilities.html', 'w', encoding='utf-8') as file:
+with open('cert.in/vulnerabilities.html', 'w', encoding='utf-8') as file:
     file.write(html_table)
 
 print("HTML file 'vulnerabilities.html' created successfully.")

@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 
-with open("nist.html", "r") as f:
+with open("cert.in/nist.html", "r") as f:
     html_doc = f.read()
 
 
@@ -11,7 +11,7 @@ soup = BeautifulSoup(html_doc, 'html.parser')
 s = soup.find('div', id="latestVulnsArea")
 
 
-with open("x.html", "w") as output_file:
+with open("cert.in/x.html", "w") as output_file:
     if s:
 
         for child in s.children:

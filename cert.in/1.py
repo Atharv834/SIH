@@ -17,5 +17,5 @@ def fetchAndSaveToFile(url, path):
         print(f"Error writing to file: {e}")
 
 url = "https://nvd.nist.gov/"
-fetchAndSaveToFile(url, "/home/darklord/cert.in/nist.html")
+fetchAndSaveToFile(url, r"C:\Users\Atharv\Desktop\Chatgpt\SIH\cert.in\nist.html")
 
